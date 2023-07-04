@@ -100,9 +100,11 @@ public class Cafetera {
 
 	@Override
 	public String toString() {
-		return "Cafetera [capacidadMaxima=" + capacidadMaxima 
-				+ ", cantidadActual=" + cantidadActual + "]";
+		return  "capacidadMaxima=" + capacidadMaxima + 
+				", cantidadActual=" + cantidadActual ;
 	}
+
+	
 	
 	
 	
