@@ -97,5 +97,13 @@ public class Cafetera {
 	public void agregarCafe(int cantidad) {
 		setCantidadActual(this.cantidadActual+cantidad);
 	}
+
+	@Override
+	public String toString() {
+		return "Cafetera [capacidadMaxima=" + capacidadMaxima 
+				+ ", cantidadActual=" + cantidadActual + "]";
+	}
+	
+	
 	
 }
